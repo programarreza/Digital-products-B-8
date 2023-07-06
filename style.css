@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+.container {
+    background-color: #202020;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px;
+}
+.logo img {
+    width: 100px;
+}
+
+.menu ul {
+    display: flex;
+}
+.menu ul li a {
+    color: #fff;
+    list-style: none;
+    margin-right: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .5s ease;
+}
+.menu ul li a:hover {
+    color: rgb(114, 114, 240);
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url("images/background.png"), linear-gradient(45deg,rgb(8, 8, 8), rgba(53, 53, 53));
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.text-content h2 {
+    font-size: 45px;
+    width: 550px;
+    font-weight: 600;
+}
+
+
+.text-content p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.image-content img {
+    width: 300px;
+}
+
+.text-content .btn {
+    padding: 5px;
+    font-size: 16px;
+    background: tomato;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .5s ease;
+}
+
+.text-content .btn:hover {
+    background: #fff;
+    color: tomato;
+    cursor: pointer;
+}
